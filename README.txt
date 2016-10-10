@@ -14,35 +14,3 @@
 (\cont @cont) \\callccResult
 
 
-
-{ %math.rlam } \Math 
-
-( <> 'fire cubic stars in hyperspace' print
-  <> (\cont <> 'test' print
-            <timeBeforeCont> getTime
-            <> cont
-            <timeAfterCont> getTime
-            <> [timeAfterCont - timeBeforeCont] Math | print
-            <> 'chapter 2' print
-            <> cat | addPlusToEachLine | [ awk { print $2 } ] Bash
-     ) callcc
-  <> 'yes' print
-  <> 'destroy universe one day' print
-
-) \testArrow
-
-( <chanB> chanA / chanB | chanD ) & ( <> chanD | print / 'kuku' print )
-
-# @ + &
-
-[> test <]
-
-!
-?
-~
-
-a // b // c
-
-
-
-
