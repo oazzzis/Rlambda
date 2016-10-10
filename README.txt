@@ -10,6 +10,11 @@
 
 } \Combinators
 
+
+(\cont @cont) \\callccResult
+
+
+
 { %math.rlam } \Math 
 
 ( <> 'fire cubic stars in hyperspace' print
@@ -26,7 +31,7 @@
 
 ) \testArrow
 
-( <chanB> chanA / chanB | chanD ) & ( chanD | print / 'kuku' print )
+( <chanB> chanA / chanB | chanD ) & ( <> chanD | print / 'kuku' print )
 
 # @ + &
 
