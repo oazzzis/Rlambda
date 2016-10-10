@@ -3,7 +3,7 @@
 Zucker for module system
 ##}
 
-@fixpointCombinator.rlam
+%fixpointCombinator.rlam
 
 
 

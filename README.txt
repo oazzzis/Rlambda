@@ -1,5 +1,5 @@
 
-@module.zker
+%module.zker
 
 {
 
@@ -10,7 +10,10 @@
 
 } \Combinators
 
-( <> (\cont <> 'test' print
+{ %math.rlam } \Math 
+
+( <> 'fire cubic stars in hyperspace' print
+  <> (\cont <> 'test' print
             <timeBeforeCont> getTime
             <> cont
             <timeAfterCont> getTime
@@ -22,4 +25,19 @@
   <> 'destroy universe one day' print
 
 ) \testArrow
+
+( <chanB> chanA / chanB | chanD ) & ( chanD | print / 'kuku' print )
+
+# @ + &
+
+[> test <]
+
+!
+?
+~
+
+a // b // c
+
+
+
 

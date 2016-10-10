@@ -3,7 +3,7 @@
 Combinators
 ##}
 
-@fixpointCombinator.rlam
+%fixpointCombinator.rlam
 
 (\a (\a \b (a b) b) \c a c c) \fixpointCombinator
 
@@ -15,9 +15,9 @@ Combinators
   (\a \b \c (c b) a)            \cardinal
   fixpointCombinator            \fixpoint
 
-@body) fixpointCombinator) \Combinators
+%body) fixpointCombinator) \Combinators
 
-@module.zker
+%module.zker
 
 { (kestrel kestrel starling) \identity } Combinators+
 
