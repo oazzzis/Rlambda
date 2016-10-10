@@ -1,6 +1,4 @@
 
-<pre>
-
 @module.zker
 
 {
@@ -24,6 +22,4 @@
   <> 'destroy universe one day' print
 
 ) \testArrow
-
-</pre>
 
